@@ -1,6 +1,6 @@
-//v.1.0 done! launch!
+//v.1.1 done! launch!
 
 var pangkat = (x,y) =>{
-    return x=x**y
+    return Math.pow(x,y)
 }
 console.log(pangkat(2,3))
